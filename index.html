@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KWICK !</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+
+    <!-- INSCRIPTION / CONNEXION -->
+
+    <section id="Formulaire">
+
+        <!-- Connexion -->
+
+        <div class="MainHeader">
+            <h1>Hello !</h1>
+        </div>
+
+        <div id="Connexion">
+            <form action="connexion">
+
+                <div id="ConInputs">
+                    <input id="input_login" type="login" placeholder="Login">
+                    <input id="input_password" type="password" placeholder="Password">
+                </div>
+
+                <div id="ConBtn">
+                    <button type="button" id="SignInBtn">Sign in</button>
+                </div>
+
+                <div id="Ins">
+                    <div id="InsText">
+                        <p>Not registered yet ? Go here :</p>
+                    </div>
+                    <div id="InsBtn"><button type="button" id="RegistrBtn">Register</button></div>
+                </div>
+
+            </form>
+        </div>
+
+        <!-- Inscription -->
+
+        <div id="Inscription">
+            <form action="Inscription">
+
+                <div id="InsTop">
+                    <div id="InsLeft">
+                        <h2>Login :</h2>
+                        <h2>Password :</h2>
+                        <h2>Confirm password :</h2>
+                    </div>
+                    <div id="InsRight">
+                        <input type="login" placeholder="Login" id="user_login">
+                        <input type="password" placeholder="Password" id="user_pwd1">
+                        <input type="password" placeholder="Password" id="user_pwd2">
+                    </div>
+                </div>
+                <div id="InsBot">
+                    <button type="button" id="CancelBtn">Cancel</button>
+                    <button type="button" id="SignUpBtn">Continue</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- CHAT -->
+
+
+    <section id="Chat">
+
+        <!-- header -->
+
+        <div id="ChatHeader">
+            <div>
+                <h1>Connected Members</h1>
+            </div>
+            <div id="HeaderMessages">
+                <h1>Messages</h1>
+            </div>
+        </div>
+
+        <!-- milieu -->
+
+        <div id="ChatTop">
+            <div id="ChatTopLeft">
+                
+            </div>
+            <div class="VertLine" id="VertiLine"></div>
+            <div class="VertLine"></div>
+            <div id="ChatTopRight">
+        <!--        <div class="MyMess">
+                        <div class="MyMessLeft">
+                            <div class="UpRightText">
+                                <div class="MyLogin">
+                                    <p>Pseudo Pseudo</p>
+                                </div>
+                                <div class="MyMessTime">
+                                    <p>19h02</p>
+                                </div>
+                            </div>
+                            <div class="MyMessage">
+                                <p>Bonjour nike tes grands morts bonjour je m'appel Nolan tout ça les bailles lol.
+                                    J'aime le code ofc
+                                    et le sport et puis euh ...gqjopsqdgjslqmdg,lm bon je fsdqfsdgsdgp sqgoinqsfg obsfog bis
+                                    giosdgiosndiognsiodgn
+                                </p>
+                            </div>
+                        </div>
+                        <div class="MyMessRight">
+                            <img src="lib/avatar_default.png" alt="">
+                        </div>
+                    </div>
+                    <div class="OtherMess">
+                        <div class="PPText">
+                            <img src="lib/avatar_default.png" alt="">
+                        </div>
+                        <div class="LeftText">
+                            <div class="UpLeftText">
+                                <div class="PseudoText">
+                                    <p>Pseudo Pseudo</p>
+                                </div>
+                                <div class="Time">
+                                    <p>19h02</p>
+                                </div>
+                            </div>
+                            <div class="theMessage">
+                                <p class="Mess">bonjour bonjour bonjour bonjour bonjour bonjour</p>
+                            </div>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+        <div id="HoriLineDiv">
+            <hr id="HoriLine">
+        </div>
+
+        <!-- bas du chat-->
+
+        <div id="ChatBot">
+            <div id="ChatBotDeco">
+                <button id="LogOutBtn">Log off</button>
+            </div>
+            <div id="ChatBotText">
+                <textarea style="resize: none" name="" id="InputField" cols="" rows="5" maxlength="140"></textarea>
+            </div>
+            <div id="ChatBotSend">
+                <button id="SendBtn">Send</button>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script src="src/jquery.js"></script>
+    <script src="src/kwick.js"></script>
+
+</body>
+
+</html>

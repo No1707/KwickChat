@@ -1,0 +1,595 @@
+body {
+    margin: 0;
+    background-color: #283149;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body button{
+    font-family: 'Ubuntu', sans-serif;
+    height: 50px;
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    transition: all 0.3s ease 0s;
+}
+
+body button:hover{
+    color: #ff5722 !important;
+    border-radius: 50px;
+    border-color: #ff5722 !important;
+    transition: all 0.3s ease 0s;
+}
+
+body input{
+    border: 3px solid rgba(0, 0, 0, 0.514);
+    border-radius: 7px;
+}
+
+body input:focus{
+    outline: none;
+    border: 4px solid #46b5d1;
+}
+
+#ChatTopLeft::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#ChatTopLeft::-webkit-scrollbar{
+	width: 12px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#ChatTopLeft::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(106, 159, 192, 0.746);
+}
+
+#ChatTopRight::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#ChatTopRight::-webkit-scrollbar{
+	width: 12px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#ChatTopRight::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(106, 159, 192, 0.746);
+}
+
+/* INSCRIPTION / CONNEXION */
+
+#Formulaire{
+
+    display: flex; /* LE DISPLAY */
+
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* FORMULAIRE CONNEXION */
+
+.MainHeader{
+    width: 90%;
+    height: 25%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+}
+
+.MainHeader h1{
+    
+    margin: 0;
+    font-weight: 400
+}
+
+#Connexion {
+
+    /* display: none; /*  /* LE DISPLAY */
+
+    height: 55%;
+    width: 50%;
+    border-radius: 17px;
+}
+
+#Connexion form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Connexion form div:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+#ConInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input_login{
+    font-size: 25px;
+    height: 50px;
+    margin: 25px 0 0 0;
+}
+
+#input_password{
+    font-size: 25px;
+    height: 50px;
+    margin: 25px 0 0 0;
+}
+
+#ConBtn{    
+    padding-top: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#ConBtn button:hover{
+    color: White !important;
+    background-color: rgba(172, 255, 47, 0.767);
+    border: none  !important;
+}
+
+#SignInBtn:focus{
+    outline: none;
+    background-color: rgba(172, 255, 47, 0.335) !important
+}
+
+#Ins{
+    width: 70%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#InsText{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#InsBtn{
+    display: flex;
+    height: 50px;
+}
+
+#InsBtn button:hover{
+    color: White !important;
+    background-color: blue;
+    border: none  !important;
+}
+
+#InsBtn button:focus{
+    outline: none;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+
+/* FORMULAIRE INSCRIPTION */
+
+#Inscription{
+
+     display: none;/* LE DISPLAY */
+
+    height: 60%;
+    width: 40%;
+    border-radius: 17px;
+}
+
+#Inscription form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#InsTop{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
+    /* PARTIE HAUTE */
+
+        /* PARTIE GAUCHE */
+
+#InsLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#InsLeft h2{
+    color: white;
+    height: 15%;
+    margin-right: 20%;
+    margin-bottom: 28px;
+    font-weight: 500;
+}
+
+#InsLeft h2:first-child{
+    margin-top: 48px;
+}
+
+        /* PARTIE DROITE */
+
+#InsRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#InsRight input{
+    font-size: 25px;
+    margin-top: 50px;
+    height: 50px;
+    margin: 24px 0;
+}
+
+#InsRight input:first-child{
+    margin-top: 40px;
+}
+
+    /* PARTIE BAS */
+
+#InsBot{
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+}
+
+#CancelBtn:hover{
+    color: White !important;
+    background-color: blue;
+    border: none  !important;
+}
+
+#CancelBtn:focus{
+    outline: none;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+
+#SignUpBtn:hover{
+    color: White !important;
+    background-color: rgba(172, 255, 47, 0.781);
+    border: none  !important;
+}
+
+#SignUpBtn:focus{
+    outline: none;
+    background-color: rgba(172, 255, 47, 0.342);
+}
+
+/* FENETRE DE CHAT */
+
+#Chat{
+    /* display: none; LE DISPLAY */
+    height: 98vh;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#ChatHeader{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#ChatHeader div:first-child{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+#HeaderMessages{
+    display: flex;
+}
+
+#HeaderMessages h1{
+    padding-left: 120px;
+}
+
+#ChatHeader h1{
+    font-weight: 400;
+    color: white;
+}
+
+/* #Chatwindow{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+} */
+
+/* PARTIE HAUTE */
+
+#ChatTop{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+    /* Partie GAUCHE */
+
+#ChatTopLeft{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserConnect{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.ProfileP{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.ProfileP img{
+    max-width: 80%;
+    max-height: 70%;
+}
+
+.Pseudo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Pseudo p{
+    word-wrap: break-word;
+    width: 100%
+}
+
+    /* LIGNE VERTICALE */
+
+.VertLine{
+    width: 1%;
+    height: 95%;
+}
+
+#VertiLine{
+    border-right: 1px solid white;
+}
+
+    /* PARTIE DROITE */
+
+#ChatTopRight{
+    background-color: #eaeaea;
+    width: 81%;
+    overflow: auto;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+/* MY MESS */
+
+.MyMess{
+    background: linear-gradient(90deg, rgba(234,234,234,1) 20%, rgb(195, 195, 195) 100%);
+    width: 100%;
+    display: flex;
+    min-height: 110px;
+    min-width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.MyMessLeft{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+}
+
+.UpRightText{
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+
+.UpRightText p{
+    margin: 0;
+}
+
+.MyMessTime{
+padding: 0 50px;
+}
+
+.MyMessage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.MyMessage p{
+    padding-left: 105px;
+    width: 95%;
+    word-wrap: break-word;
+}
+
+
+.MyMessRight{
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.MyMessRight img{
+    max-width: 60%;
+    max-height: 53px;
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+}
+
+/* OTHER MESS */
+
+.OtherMess{
+    min-width: 100%;
+    min-height: auto;
+    display: flex;
+    border-top: 1px solid lightgray;
+}
+
+.PPText{
+    min-width: 7%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.PPText img{
+    padding-top: 5px;
+    min-width: 50%;
+    height: 53px;
+}
+
+.LeftText{
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+}
+
+.UpLeftText{
+    display: flex;
+    width: 95%;
+    height: 20px;
+    padding-top: 15px;
+}
+
+.UpLeftText p{
+    margin: 0;
+}
+
+.PseudoText{
+    min-width: 50px;
+    height: 100%;
+    padding-left: 25px;
+}
+
+.Time{
+    width: 20%;
+    height: 100%;
+    padding-left: 50px;
+}
+
+.theMessage{
+    width: 95%;
+    height: auto;
+}
+
+.Mess{
+    font-size: 17px;
+    word-wrap: break-word;
+}
+
+/* LIGNE HORIZONTALE */
+
+#HoriLineDiv{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#HoriLine{
+    width: 81%;
+    margin: 0.5em 0 0 0;
+}
+
+/* PARTIE BASSE */
+
+#ChatBot{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+    /* PARTIE DECONNEXION */
+
+#ChatBotDeco{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ChatBotDeco button:hover{
+    color: White !important;
+    background-color: red;
+    border: none  !important;
+}
+
+#ChatBotDeco button:focus{
+    outline: none;
+    background-color: rgba(255, 0, 0, 0.445);
+}
+
+#ChatBotText{
+    width: 71%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ChatBotText textarea{
+    width: 85%;
+    height: 75%;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+#ChatBotSend{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ChatBotSend button:hover{
+    color: White !important;
+    background-color: lightskyblue;
+    border: none  !important;
+}
