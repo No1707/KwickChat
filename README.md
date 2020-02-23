@@ -14,7 +14,7 @@ It doesn't work anymore since the live chat server is not online anymore.
 
 FR_
 
-J'ai réalisé ce projet dans le cadre de ma formation. C'est un chat instantanné incluant des fonctionnalités basiques comme:
+J'ai réalisé ce projet dans le cadre de ma formation. C'est un chat instantané incluant des fonctionnalités basiques comme:
 -Inscription
 -Connexion
 -Déconnexion
